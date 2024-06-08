@@ -77,3 +77,22 @@ The keys are not case-sensitive.
 ### Navigate by Line or Column Number
 A great way to navigate through a file is by line number. To enable the line numbers, enter the keys Alt + N. Important: Depending on the computer, when using an internet browser, these shortkeys may open a new window. Therefore, you must use these keys in a real command line.
 
+![](./line-number.png)
+
+To move the cursor to a specific line in the file, enter the keys Alt + G. The following text will appear at the bottom of the nano text editor (above the keyboard command menu).
+
+This is a screenshot of the text that says, "Enter line number, column number: 8".
+
+The text is prompting us to enter the line number and column number (separated by a comma). However, we have only entered the line number 8. After pressing enter, the cursor moved to line 8:
+
+This is a screenshot of the cursor at the beginning of line 8 in a `nano` file.
+
+### Search the nano File
+To search for a text pattern in a nano file, enter the keys Ctrl + W. This will start a forward search (from top to bottom) that will begin where the cursor is located. Important: Depending on the computer, when using an internet browser, these shortkeys may exit out of the current window. Therefore, you must use these keys in a real command line.
+
+After pressing Ctrl + W we entered the text pattern code in the search bar.
+
+
+
+
+
