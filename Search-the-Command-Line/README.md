@@ -3,8 +3,9 @@ Lesson link:
 https://www.codecademy.com/courses/learn-raspberry-pi-command-line/articles/search-the-command-line
 
 
-Search the Command Line
-Search with grep, find, history, and Ctrl + R!
+## Search the Command Line
+
+**Search with grep, find, history, and Ctrl + R!**
 
 This article will give you the tools to search and find files, folders, and previously used commands within your command-line terminal. Gone are the days of scrolling through files and folders and guessing what directory you need. You will no longer waste valuable time trying to remember that command you need.
 
@@ -36,7 +37,7 @@ The above commands are a great way to get started with grep. If you are familiar
 
 
 
-Search Directories With grep
+### Search Directories With grep
 The grep -R command searches the contents of all files in a directory and outputs file names and lines containing matched results. -R stands for “recursive”.
 
 $ grep -R Arctic /home/ccuser/workspace/geography
@@ -79,7 +80,7 @@ This is an image of the command `find | grep 5` and the output that appears. The
 
 Note, the period . in the output means the current working directory. For example, if your current working directory was /home, then ./ccuser would translate to /home/ccuser.
 
-history Command List
+### history Command List
 As you are working in your command line, it can be very helpful to know which commands you have previously used. The history command will return a chronological list of all the commands that have been previously entered.
 
 This is a screenshot of the `history` command and its output. The output is a list numbered 1 to 5 and the items are: `pwd`, `ls`, `cat file.py`, `cp file.py destination/`.
@@ -94,7 +95,7 @@ This is a screenshot of the command `!ca`. It runs `cat file.py` and the output 
 
 After we run the history command and press enter, we can immediately cycle through the commands from the history command list with the up arrow, starting at the bottom of the history list. This will allow us to edit the command before we run it.
 
-history with grep
+### history with grep
 By using the history and grep commands joined with a pipe |, we can return all the previously used commands that match a text pattern.
 
 This is a screenshot of the command `history | grep cd` and the output is `2 cd blog`, `5 cd 2014`, and `7 cd ..`, `12 cd 2015`, `14 history | grep cd`.
@@ -105,7 +106,7 @@ $ history | grep mv
 
 $ history | grep rm
 
-history with tail
+### history with tail
 Using history with the tail command will return the last ten commands, as opposed to the whole history command list.
 
 This is a screenshot of the command `history | tail` and the output. The output is a list of commands numbered from 6 to 15 because it is the last ten commands used.
@@ -114,7 +115,7 @@ We can also specify how many commands we would like to view. The following comma
 
 This is an image of the command `history | tail -n 3` returning a list of the last three commands used.
 
-Clear history
+### Clear history
 To clear the history command list, enter history -c. This will delete the entire list of previously used commands.
 
 Search Commands With ctrl + r
