@@ -29,6 +29,8 @@ Here are a few important keyboard commands to know:
 - Ctrl + X exits the nano program. X stands for exit.
 - Alt + U will undo your last action.
 - Alt + E will redo your last undo action.
+>
+
 For Mac users, the Option key is the Alt key equivalent.
 
 
