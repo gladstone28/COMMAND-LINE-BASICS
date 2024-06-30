@@ -1,9 +1,12 @@
+Lesson link:
 
+https://www.codecademy.com/courses/learn-raspberry-pi-command-line/articles/command-line-nano-text-editor
 
-Command Line: nano Text Editor
-Create files from the command line!
+### Command Line: nano Text Editor
 
-nano Text Editor
+## Create files from the command line!
+
+**nano Text Editor**
 nano is a command-line text editor used to create or edit files. It works the same way as a desktop text editor like TextEdit or Notepad, except that it is accessible from the command line and only accepts keyboard input.
 
 ```
