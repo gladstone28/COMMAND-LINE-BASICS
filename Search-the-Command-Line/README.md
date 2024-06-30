@@ -1,3 +1,6 @@
+Lesson link:
+
+https://www.codecademy.com/courses/learn-raspberry-pi-command-line/articles/search-the-command-line
 
 
 Search the Command Line
